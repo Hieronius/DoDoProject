@@ -54,14 +54,110 @@
 		DD8661E42A73B6DA00F92FE1 /* DoDoProject */ = {
 			isa = PBXGroup;
 			children = (
-				DD8661E52A73B6DA00F92FE1 /* AppDelegate.swift */,
-				DD8661E72A73B6DA00F92FE1 /* SceneDelegate.swift */,
-				DD8661E92A73B6DA00F92FE1 /* TabBarController.swift */,
-				DD8661EE2A73B6DD00F92FE1 /* Assets.xcassets */,
-				DD8661F02A73B6DD00F92FE1 /* LaunchScreen.storyboard */,
-				DD8661F32A73B6DD00F92FE1 /* Info.plist */,
+				DD8661F92A73BFA100F92FE1 /* App */,
+				DD8661FA2A73BFBD00F92FE1 /* Screens */,
+				DD8662002A73C03F00F92FE1 /* Models */,
+				DD8662012A73C04D00F92FE1 /* Services */,
+				DD8662022A73C06C00F92FE1 /* Extensions */,
+				DD8662032A73C08200F92FE1 /* Resources */,
 			);
 			path = DoDoProject;
+			sourceTree = "<group>";
+		};
+		DD8661F92A73BFA100F92FE1 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DD8661E52A73B6DA00F92FE1 /* AppDelegate.swift */,
+				DD8661E72A73B6DA00F92FE1 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DD8661FA2A73BFBD00F92FE1 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				DD8661E92A73B6DA00F92FE1 /* TabBarController.swift */,
+				DD8661FB2A73BFDD00F92FE1 /* Menu */,
+				DD8661FF2A73C02C00F92FE1 /* Detail */,
+				DD8661FC2A73BFE200F92FE1 /* Profile */,
+				DD8661FD2A73BFF400F92FE1 /* Contacts */,
+				DD8661FE2A73C00000F92FE1 /* Basket */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		DD8661FB2A73BFDD00F92FE1 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		DD8661FC2A73BFE200F92FE1 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		DD8661FD2A73BFF400F92FE1 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		DD8661FE2A73C00000F92FE1 /* Basket */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Basket;
+			sourceTree = "<group>";
+		};
+		DD8661FF2A73C02C00F92FE1 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		DD8662002A73C03F00F92FE1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DD8662012A73C04D00F92FE1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DD8662022A73C06C00F92FE1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DD8662032A73C08200F92FE1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DD8662042A73C0C400F92FE1 /* Helpers */,
+				DD8661F32A73B6DD00F92FE1 /* Info.plist */,
+				DD8661F02A73B6DD00F92FE1 /* LaunchScreen.storyboard */,
+				DD8661EE2A73B6DD00F92FE1 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DD8662042A73C0C400F92FE1 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,7 +373,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7YW3V66545;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DoDoProject/Info.plist;
+				INFOPLIST_FILE = DoDoProject/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -309,7 +405,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7YW3V66545;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DoDoProject/Info.plist;
+				INFOPLIST_FILE = DoDoProject/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
