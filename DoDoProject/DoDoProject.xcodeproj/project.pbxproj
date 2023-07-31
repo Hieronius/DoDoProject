@@ -27,6 +27,7 @@
 		DD8F75D92A77EB7A007F10C1 /* BannerTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8F75D82A77EB7A007F10C1 /* BannerTableCell.swift */; };
 		DD8F75DB2A77EBC8007F10C1 /* CategoryTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8F75DA2A77EBC8007F10C1 /* CategoryTableCell.swift */; };
 		DD8F75DD2A77EBFD007F10C1 /* BannerCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8F75DC2A77EBFD007F10C1 /* BannerCollectionCell.swift */; };
+		DD8F75DF2A77EC94007F10C1 /* CategoryCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8F75DE2A77EC94007F10C1 /* CategoryCollectionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		DD8F75D82A77EB7A007F10C1 /* BannerTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerTableCell.swift; sourceTree = "<group>"; };
 		DD8F75DA2A77EBC8007F10C1 /* CategoryTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableCell.swift; sourceTree = "<group>"; };
 		DD8F75DC2A77EBFD007F10C1 /* BannerCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCollectionCell.swift; sourceTree = "<group>"; };
+		DD8F75DE2A77EC94007F10C1 /* CategoryCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +218,7 @@
 				DD8F75D82A77EB7A007F10C1 /* BannerTableCell.swift */,
 				DD8F75DA2A77EBC8007F10C1 /* CategoryTableCell.swift */,
 				DD8F75DC2A77EBFD007F10C1 /* BannerCollectionCell.swift */,
+				DD8F75DE2A77EC94007F10C1 /* CategoryCollectionCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				DD8661E62A73B6DA00F92FE1 /* AppDelegate.swift in Sources */,
 				DD8EFAFC2A7529DE006C3F6B /* MenuView.swift in Sources */,
 				DD8F75CF2A77E8BE007F10C1 /* GenericViewController.swift in Sources */,
+				DD8F75DF2A77EC94007F10C1 /* CategoryCollectionCell.swift in Sources */,
 				DD8F75DB2A77EBC8007F10C1 /* CategoryTableCell.swift in Sources */,
 				DD8F75D72A77EB35007F10C1 /* ProductTableCell.swift in Sources */,
 				DD8EFAF52A752677006C3F6B /* ContactsScreenVC.swift in Sources */,
