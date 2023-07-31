@@ -35,6 +35,7 @@
 		DD8F75E92A77EFBA007F10C1 /* CategoryCollectionViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8F75E82A77EFBA007F10C1 /* CategoryCollectionViewManager.swift */; };
 		DD8F75EB2A77F0C1007F10C1 /* CustomBannerPriceLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8F75EA2A77F0C1007F10C1 /* CustomBannerPriceLabel.swift */; };
 		DD8F75ED2A77F0F7007F10C1 /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8F75EC2A77F0F7007F10C1 /* Banner.swift */; };
+		DD8F75EF2A77F111007F10C1 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8F75EE2A77F111007F10C1 /* Category.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,7 @@
 		DD8F75E82A77EFBA007F10C1 /* CategoryCollectionViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewManager.swift; sourceTree = "<group>"; };
 		DD8F75EA2A77F0C1007F10C1 /* CustomBannerPriceLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBannerPriceLabel.swift; sourceTree = "<group>"; };
 		DD8F75EC2A77F0F7007F10C1 /* Banner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
+		DD8F75EE2A77F111007F10C1 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +181,7 @@
 			children = (
 				DD8EFAF82A752836006C3F6B /* Product.swift */,
 				DD8F75EC2A77F0F7007F10C1 /* Banner.swift */,
+				DD8F75EE2A77F111007F10C1 /* Category.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 				DD8F75E52A77ED8D007F10C1 /* UICollectionView + dequeueCell.swift in Sources */,
 				DD8EFAF72A7526DF006C3F6B /* BasketScreenVC.swift in Sources */,
 				DD8661E62A73B6DA00F92FE1 /* AppDelegate.swift in Sources */,
+				DD8F75EF2A77F111007F10C1 /* Category.swift in Sources */,
 				DD8EFAFC2A7529DE006C3F6B /* MenuView.swift in Sources */,
 				DD8F75CF2A77E8BE007F10C1 /* GenericViewController.swift in Sources */,
 				DD8F75EB2A77F0C1007F10C1 /* CustomBannerPriceLabel.swift in Sources */,
