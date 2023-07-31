@@ -20,6 +20,7 @@
 		DD8EFAF72A7526DF006C3F6B /* BasketScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8EFAF62A7526DF006C3F6B /* BasketScreenVC.swift */; };
 		DD8EFAF92A752836006C3F6B /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8EFAF82A752836006C3F6B /* Product.swift */; };
 		DD8EFAFC2A7529DE006C3F6B /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8EFAFB2A7529DE006C3F6B /* MenuView.swift */; };
+		DD8F75CF2A77E8BE007F10C1 /* GenericViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8F75CE2A77E8BE007F10C1 /* GenericViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		DD8EFAF62A7526DF006C3F6B /* BasketScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketScreenVC.swift; sourceTree = "<group>"; };
 		DD8EFAF82A752836006C3F6B /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		DD8EFAFB2A7529DE006C3F6B /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		DD8F75CE2A77E8BE007F10C1 /* GenericViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +182,7 @@
 		DD8662042A73C0C400F92FE1 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				DD8F75CE2A77E8BE007F10C1 /* GenericViewController.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				DD8EFAF72A7526DF006C3F6B /* BasketScreenVC.swift in Sources */,
 				DD8661E62A73B6DA00F92FE1 /* AppDelegate.swift in Sources */,
 				DD8EFAFC2A7529DE006C3F6B /* MenuView.swift in Sources */,
+				DD8F75CF2A77E8BE007F10C1 /* GenericViewController.swift in Sources */,
 				DD8EFAF52A752677006C3F6B /* ContactsScreenVC.swift in Sources */,
 				DD8661E82A73B6DA00F92FE1 /* SceneDelegate.swift in Sources */,
 				DD8B791F2A7690D100BA949F /* ProductService.swift in Sources */,
