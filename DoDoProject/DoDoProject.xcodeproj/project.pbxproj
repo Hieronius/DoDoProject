@@ -30,6 +30,7 @@
 		DD8F75DF2A77EC94007F10C1 /* CategoryCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8F75DE2A77EC94007F10C1 /* CategoryCollectionCell.swift */; };
 		DD8F75E12A77ECF5007F10C1 /* Reusable + reuseID.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8F75E02A77ECF5007F10C1 /* Reusable + reuseID.swift */; };
 		DD8F75E32A77ED4E007F10C1 /* UITableView + dequeueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8F75E22A77ED4E007F10C1 /* UITableView + dequeueCell.swift */; };
+		DD8F75E52A77ED8D007F10C1 /* UICollectionView + dequeueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8F75E42A77ED8D007F10C1 /* UICollectionView + dequeueCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		DD8F75DE2A77EC94007F10C1 /* CategoryCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionCell.swift; sourceTree = "<group>"; };
 		DD8F75E02A77ECF5007F10C1 /* Reusable + reuseID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reusable + reuseID.swift"; sourceTree = "<group>"; };
 		DD8F75E22A77ED4E007F10C1 /* UITableView + dequeueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView + dequeueCell.swift"; sourceTree = "<group>"; };
+		DD8F75E42A77ED8D007F10C1 /* UICollectionView + dequeueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView + dequeueCell.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +187,7 @@
 			children = (
 				DD8F75E02A77ECF5007F10C1 /* Reusable + reuseID.swift */,
 				DD8F75E22A77ED4E007F10C1 /* UITableView + dequeueCell.swift */,
+				DD8F75E42A77ED8D007F10C1 /* UICollectionView + dequeueCell.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				DD8F75D42A77EAAE007F10C1 /* MenuTableViewManager.swift in Sources */,
 				DD8EFAF12A752586006C3F6B /* DetailScreenVC.swift in Sources */,
 				DD8EFAF92A752836006C3F6B /* Product.swift in Sources */,
+				DD8F75E52A77ED8D007F10C1 /* UICollectionView + dequeueCell.swift in Sources */,
 				DD8EFAF72A7526DF006C3F6B /* BasketScreenVC.swift in Sources */,
 				DD8661E62A73B6DA00F92FE1 /* AppDelegate.swift in Sources */,
 				DD8EFAFC2A7529DE006C3F6B /* MenuView.swift in Sources */,
