@@ -23,6 +23,7 @@
 		DD8F75CF2A77E8BE007F10C1 /* GenericViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8F75CE2A77E8BE007F10C1 /* GenericViewController.swift */; };
 		DD8F75D22A77EA1B007F10C1 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = DD8F75D12A77EA1B007F10C1 /* SnapKit */; };
 		DD8F75D42A77EAAE007F10C1 /* MenuTableViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8F75D32A77EAAE007F10C1 /* MenuTableViewManager.swift */; };
+		DD8F75D72A77EB35007F10C1 /* ProductTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8F75D62A77EB35007F10C1 /* ProductTableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		DD8EFAFB2A7529DE006C3F6B /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		DD8F75CE2A77E8BE007F10C1 /* GenericViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericViewController.swift; sourceTree = "<group>"; };
 		DD8F75D32A77EAAE007F10C1 /* MenuTableViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewManager.swift; sourceTree = "<group>"; };
+		DD8F75D62A77EB35007F10C1 /* ProductTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 			children = (
 				DD8EFAEE2A7524F4006C3F6B /* MenuScreenVC.swift */,
 				DD8EFAFA2A7529D5006C3F6B /* View */,
+				DD8F75D52A77EB1F007F10C1 /* Cells */,
 			);
 			path = Menu;
 			sourceTree = "<group>";
@@ -200,6 +203,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		DD8F75D52A77EB1F007F10C1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DD8F75D62A77EB35007F10C1 /* ProductTableCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -284,6 +295,7 @@
 				DD8661E62A73B6DA00F92FE1 /* AppDelegate.swift in Sources */,
 				DD8EFAFC2A7529DE006C3F6B /* MenuView.swift in Sources */,
 				DD8F75CF2A77E8BE007F10C1 /* GenericViewController.swift in Sources */,
+				DD8F75D72A77EB35007F10C1 /* ProductTableCell.swift in Sources */,
 				DD8EFAF52A752677006C3F6B /* ContactsScreenVC.swift in Sources */,
 				DD8661E82A73B6DA00F92FE1 /* SceneDelegate.swift in Sources */,
 				DD8B791F2A7690D100BA949F /* ProductService.swift in Sources */,
