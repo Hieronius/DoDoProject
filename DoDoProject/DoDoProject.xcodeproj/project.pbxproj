@@ -28,6 +28,7 @@
 		DD8F75DB2A77EBC8007F10C1 /* CategoryTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8F75DA2A77EBC8007F10C1 /* CategoryTableCell.swift */; };
 		DD8F75DD2A77EBFD007F10C1 /* BannerCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8F75DC2A77EBFD007F10C1 /* BannerCollectionCell.swift */; };
 		DD8F75DF2A77EC94007F10C1 /* CategoryCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8F75DE2A77EC94007F10C1 /* CategoryCollectionCell.swift */; };
+		DD8F75E12A77ECF5007F10C1 /* Reusable + reuseID.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8F75E02A77ECF5007F10C1 /* Reusable + reuseID.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		DD8F75DA2A77EBC8007F10C1 /* CategoryTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableCell.swift; sourceTree = "<group>"; };
 		DD8F75DC2A77EBFD007F10C1 /* BannerCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCollectionCell.swift; sourceTree = "<group>"; };
 		DD8F75DE2A77EC94007F10C1 /* CategoryCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionCell.swift; sourceTree = "<group>"; };
+		DD8F75E02A77ECF5007F10C1 /* Reusable + reuseID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reusable + reuseID.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +181,7 @@
 		DD8662022A73C06C00F92FE1 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				DD8F75E02A77ECF5007F10C1 /* Reusable + reuseID.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 				DD8661E82A73B6DA00F92FE1 /* SceneDelegate.swift in Sources */,
 				DD8B791F2A7690D100BA949F /* ProductService.swift in Sources */,
 				DD8F75D92A77EB7A007F10C1 /* BannerTableCell.swift in Sources */,
+				DD8F75E12A77ECF5007F10C1 /* Reusable + reuseID.swift in Sources */,
 				DD8EFAF32A752631006C3F6B /* ProfileScreenVC.swift in Sources */,
 				DD8EFAEF2A7524F4006C3F6B /* MenuScreenVC.swift in Sources */,
 			);
