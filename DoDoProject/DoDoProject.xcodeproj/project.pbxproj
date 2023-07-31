@@ -24,6 +24,7 @@
 		DD8F75D22A77EA1B007F10C1 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = DD8F75D12A77EA1B007F10C1 /* SnapKit */; };
 		DD8F75D42A77EAAE007F10C1 /* MenuTableViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8F75D32A77EAAE007F10C1 /* MenuTableViewManager.swift */; };
 		DD8F75D72A77EB35007F10C1 /* ProductTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8F75D62A77EB35007F10C1 /* ProductTableCell.swift */; };
+		DD8F75D92A77EB7A007F10C1 /* BannerTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8F75D82A77EB7A007F10C1 /* BannerTableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		DD8F75CE2A77E8BE007F10C1 /* GenericViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericViewController.swift; sourceTree = "<group>"; };
 		DD8F75D32A77EAAE007F10C1 /* MenuTableViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewManager.swift; sourceTree = "<group>"; };
 		DD8F75D62A77EB35007F10C1 /* ProductTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableCell.swift; sourceTree = "<group>"; };
+		DD8F75D82A77EB7A007F10C1 /* BannerTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerTableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				DD8F75D62A77EB35007F10C1 /* ProductTableCell.swift */,
+				DD8F75D82A77EB7A007F10C1 /* BannerTableCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -299,6 +302,7 @@
 				DD8EFAF52A752677006C3F6B /* ContactsScreenVC.swift in Sources */,
 				DD8661E82A73B6DA00F92FE1 /* SceneDelegate.swift in Sources */,
 				DD8B791F2A7690D100BA949F /* ProductService.swift in Sources */,
+				DD8F75D92A77EB7A007F10C1 /* BannerTableCell.swift in Sources */,
 				DD8EFAF32A752631006C3F6B /* ProfileScreenVC.swift in Sources */,
 				DD8EFAEF2A7524F4006C3F6B /* MenuScreenVC.swift in Sources */,
 			);
