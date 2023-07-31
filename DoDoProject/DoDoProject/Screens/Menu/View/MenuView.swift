@@ -21,13 +21,13 @@ final class MenuView: UIView {
     }
     
     required init(coder: NSCoder) {
-        super.init(coder: coder)
+        fatalError("init(coder:) has not been implemented")
     }
     
     // MARK: - Private Methods
     
     private func setupTableView() {
-        tableView = MenuTableViewmanager(frame: self.bounds, style: .plain)
+        tableView = MenuTableViewManager(frame: self.bounds, style: .plain)
         
         self.addSubview(tableView)
         
