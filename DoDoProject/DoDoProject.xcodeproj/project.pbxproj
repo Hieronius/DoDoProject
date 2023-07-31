@@ -32,6 +32,7 @@
 		DD8F75E32A77ED4E007F10C1 /* UITableView + dequeueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8F75E22A77ED4E007F10C1 /* UITableView + dequeueCell.swift */; };
 		DD8F75E52A77ED8D007F10C1 /* UICollectionView + dequeueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8F75E42A77ED8D007F10C1 /* UICollectionView + dequeueCell.swift */; };
 		DD8F75E72A77EF69007F10C1 /* BannerCollectionViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8F75E62A77EF69007F10C1 /* BannerCollectionViewManager.swift */; };
+		DD8F75E92A77EFBA007F10C1 /* CategoryCollectionViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8F75E82A77EFBA007F10C1 /* CategoryCollectionViewManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		DD8F75E22A77ED4E007F10C1 /* UITableView + dequeueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView + dequeueCell.swift"; sourceTree = "<group>"; };
 		DD8F75E42A77ED8D007F10C1 /* UICollectionView + dequeueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView + dequeueCell.swift"; sourceTree = "<group>"; };
 		DD8F75E62A77EF69007F10C1 /* BannerCollectionViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCollectionViewManager.swift; sourceTree = "<group>"; };
+		DD8F75E82A77EFBA007F10C1 /* CategoryCollectionViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +221,7 @@
 				DD8EFAFB2A7529DE006C3F6B /* MenuView.swift */,
 				DD8F75D32A77EAAE007F10C1 /* MenuTableViewManager.swift */,
 				DD8F75E62A77EF69007F10C1 /* BannerCollectionViewManager.swift */,
+				DD8F75E82A77EFBA007F10C1 /* CategoryCollectionViewManager.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				DD8661E62A73B6DA00F92FE1 /* AppDelegate.swift in Sources */,
 				DD8EFAFC2A7529DE006C3F6B /* MenuView.swift in Sources */,
 				DD8F75CF2A77E8BE007F10C1 /* GenericViewController.swift in Sources */,
+				DD8F75E92A77EFBA007F10C1 /* CategoryCollectionViewManager.swift in Sources */,
 				DD8F75DF2A77EC94007F10C1 /* CategoryCollectionCell.swift in Sources */,
 				DD8F75E72A77EF69007F10C1 /* BannerCollectionViewManager.swift in Sources */,
 				DD8F75DB2A77EBC8007F10C1 /* CategoryTableCell.swift in Sources */,
