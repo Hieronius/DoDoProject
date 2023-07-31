@@ -7,13 +7,23 @@
 
 import UIKit
 
-final class MenuScreenVC: UIViewController {
+final class MenuScreenVC: GenericViewController<MenuView> {
+    
+    // MARK: - Private Properties
+    
+    private var productService = ProductService()
     
     // MARK: - Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // some code here
+        getProducts()
+    }
+    
+    // MARK: - Private Mathods
+    
+    private func getProducts() {
+        rootView.tableView.products = productService.fetchProducts()
     }
 }
