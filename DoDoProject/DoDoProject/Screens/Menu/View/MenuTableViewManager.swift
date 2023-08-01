@@ -50,8 +50,8 @@ extension MenuTableViewManager {
         delegate = self
         self.separatorStyle = .none
         registerCell(ProductTableCell.self)
-         registerCell(BannerTableCell.self)
-         registerCell(CategoryTableCell.self)
+        registerCell(BannerTableCell.self)
+        registerCell(CategoryTableCell.self)
     }
 }
 
