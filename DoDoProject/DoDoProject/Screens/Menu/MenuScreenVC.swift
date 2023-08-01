@@ -20,6 +20,7 @@ final class MenuScreenVC: GenericViewController<MenuView> {
         super.viewDidLoad()
         
         getProducts()
+        getBanners()
     }
     
     // MARK: - Private Mathods
