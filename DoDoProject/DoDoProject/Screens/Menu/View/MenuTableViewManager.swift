@@ -15,7 +15,6 @@ final class MenuTableViewManager: UITableView {
     var products: [Product] = [] {
         didSet {
             self.reloadData()
-            print("product have been updated")
         }
     }
     
