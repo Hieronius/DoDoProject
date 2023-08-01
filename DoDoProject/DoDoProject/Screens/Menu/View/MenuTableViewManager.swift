@@ -15,7 +15,6 @@ final class MenuTableViewManager: UITableView {
     var products: [Product] = [] {
         didSet {
             self.reloadData()
-            print("product have been updated")
         }
     }
     
@@ -50,8 +49,8 @@ extension MenuTableViewManager {
         delegate = self
         self.separatorStyle = .none
         registerCell(ProductTableCell.self)
-         registerCell(BannerTableCell.self)
-         registerCell(CategoryTableCell.self)
+        registerCell(BannerTableCell.self)
+        registerCell(CategoryTableCell.self)
     }
 }
 

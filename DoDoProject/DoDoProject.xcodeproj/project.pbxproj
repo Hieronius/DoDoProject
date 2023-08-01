@@ -12,6 +12,7 @@
 		DD8661EA2A73B6DA00F92FE1 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8661E92A73B6DA00F92FE1 /* TabBarController.swift */; };
 		DD8661EF2A73B6DD00F92FE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD8661EE2A73B6DD00F92FE1 /* Assets.xcassets */; };
 		DD8661F22A73B6DD00F92FE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD8661F02A73B6DD00F92FE1 /* LaunchScreen.storyboard */; };
+		DD8AB5142A795F83006804D2 /* BannerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8AB5132A795F83006804D2 /* BannerService.swift */; };
 		DD8B791F2A7690D100BA949F /* ProductService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8B791E2A7690D100BA949F /* ProductService.swift */; };
 		DD8EFAEF2A7524F4006C3F6B /* MenuScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8EFAEE2A7524F4006C3F6B /* MenuScreenVC.swift */; };
 		DD8EFAF12A752586006C3F6B /* DetailScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8EFAF02A752586006C3F6B /* DetailScreenVC.swift */; };
@@ -46,6 +47,7 @@
 		DD8661EE2A73B6DD00F92FE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD8661F12A73B6DD00F92FE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD8661F32A73B6DD00F92FE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD8AB5132A795F83006804D2 /* BannerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerService.swift; sourceTree = "<group>"; };
 		DD8B791E2A7690D100BA949F /* ProductService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductService.swift; sourceTree = "<group>"; };
 		DD8EFAEE2A7524F4006C3F6B /* MenuScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScreenVC.swift; sourceTree = "<group>"; };
 		DD8EFAF02A752586006C3F6B /* DetailScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreenVC.swift; sourceTree = "<group>"; };
@@ -190,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				DD8B791E2A7690D100BA949F /* ProductService.swift */,
+				DD8AB5132A795F83006804D2 /* BannerService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 				DD8F75E52A77ED8D007F10C1 /* UICollectionView + dequeueCell.swift in Sources */,
 				DD8EFAF72A7526DF006C3F6B /* BasketScreenVC.swift in Sources */,
 				DD8661E62A73B6DA00F92FE1 /* AppDelegate.swift in Sources */,
+				DD8AB5142A795F83006804D2 /* BannerService.swift in Sources */,
 				DD8F75EF2A77F111007F10C1 /* Category.swift in Sources */,
 				DD8EFAFC2A7529DE006C3F6B /* MenuView.swift in Sources */,
 				DD8F75CF2A77E8BE007F10C1 /* GenericViewController.swift in Sources */,
