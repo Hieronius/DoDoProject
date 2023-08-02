@@ -13,6 +13,7 @@ final class MenuScreenVC: GenericViewController<MenuView> {
     
     private var productService = ProductService()
     private var bannerService = BannerService()
+    private var categoryService = CategoryService()
     
     // MARK: - Lifecycle
     
@@ -21,6 +22,7 @@ final class MenuScreenVC: GenericViewController<MenuView> {
         
         getProducts()
         getBanners()
+        getCategories()
     }
     
     // MARK: - Private Mathods
@@ -31,5 +33,9 @@ final class MenuScreenVC: GenericViewController<MenuView> {
     
     private func getBanners() {
         rootView.tableView.banners = bannerService.fetchBanners()
+    }
+    
+    private func getCategories() {
+        rootView.tableView.categories = categoryService.fetchCategories()
     }
 }
