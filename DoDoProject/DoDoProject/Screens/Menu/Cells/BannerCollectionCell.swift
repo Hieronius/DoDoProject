@@ -25,7 +25,7 @@ final class BannerCollectionCell: UICollectionViewCell {
     
     override init(frame: CGRect) {
         super.init(frame:frame)
-        // setupContentView()
+        //  setupContentView()
         setupContainer()
         setupProductImage()
         setupProductLabel()
