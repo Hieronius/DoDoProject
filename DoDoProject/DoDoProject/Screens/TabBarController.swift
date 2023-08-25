@@ -15,6 +15,7 @@ final class TabBarController: UITabBarController {
         super.viewDidLoad()
         
         setupTabBar()
+        setupTabBarIcons()
     }
     
     private func setupTabBar() {
@@ -48,6 +49,12 @@ final class TabBarController: UITabBarController {
         
         let controllers = [menuVC, profileVC, contactsVC, basketVC]
         self.viewControllers = controllers
+    }
+    
+    private func setupTabBarIcons() {
+        guard let items = tabBar.items else { return }
+        
+        item
     }
 
 }
