@@ -54,7 +54,17 @@ final class TabBarController: UITabBarController {
     private func setupTabBarIcons() {
         guard let items = tabBar.items else { return }
         
-        item
+        items[0].selectedImage = UIImage(named: "pizzaSelectedIcon")?.resize(withSize: CGSize(width: 30, height: 30))
+        items[0].image = UIImage(named: "pizzaIcon")?.resize(withSize: CGSize(width: 30, height: 30))
+        
+        items[1].selectedImage = UIImage(named: "profileSelectedIcon")?.resize(withSize: CGSize(width: 30, height: 30))
+        items[1].image = UIImage(named: "profileIcon")?.resize(withSize: CGSize(width: 30, height: 30))
+        
+        items[2].selectedImage = UIImage(named: "contactsSelectedIcon")?.resize(withSize: CGSize(width: 30, height: 30))
+        items[2].image = UIImage(named: "contactsIcon")?.resize(withSize: CGSize(width: 30, height: 30))
+        
+        items[3].selectedImage = UIImage(named: "basketSelectedIcon")?.resize(withSize: CGSize(width: 30, height: 30))
+        items[3].image = UIImage(named: "basketIcon")?.resize(withSize: CGSize(width: 30, height: 30))
     }
 
 }
