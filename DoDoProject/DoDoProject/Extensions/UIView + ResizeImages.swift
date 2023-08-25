@@ -1,5 +1,5 @@
 //
-//  UIView+ResizeImages.swift
+//  UIView + ResizeImages.swift
 //  DoDoProject
 //
 //  Created by Арсентий Халимовский on 25.08.2023.
