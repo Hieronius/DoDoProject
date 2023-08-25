@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TabBarController: UITabBarController {
+final class TabBarController: UITabBarController {
     
     // MARK: - Lifecycle
 
@@ -17,7 +17,7 @@ class TabBarController: UITabBarController {
         setupTabBar()
     }
     
-    func setupTabBar() {
+    private func setupTabBar() {
         delegate = self
         
         self.tabBar.backgroundColor = .white
