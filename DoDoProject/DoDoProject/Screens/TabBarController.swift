@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TabBarController: UITabBarController {
+final class TabBarController: UITabBarController {
     
     // MARK: - Lifecycle
 
@@ -17,33 +17,44 @@ class TabBarController: UITabBarController {
         setupTabBar()
     }
     
-    func setupTabBar() {
+    // MARK: - Private Methods
+    
+    private func setupTabBar() {
         delegate = self
         
         self.tabBar.backgroundColor = .white
+        self.tabBar.tintColor = .black
         
         let menuVC = MenuScreenVC()
-        let menuIcon = UITabBarItem(title: "Меню",
-                                    image: UIImage(systemName: "fork.knife"),
-                                    selectedImage: UIImage(systemName: "fork.knife.fill"))
+        let menuIcon = UITabBarItem(
+            title: "Меню",
+            image: UIImage(named: "pizzaIcon")?.resize(withSize: CGSize(width: 30, height: 30)),
+            selectedImage: UIImage(named: "pizzaSelectedIcon")?.resize(withSize: CGSize(width: 30, height: 30))
+        )
         menuVC.tabBarItem = menuIcon
         
         let profileVC = ProfileScreenVC()
-        let profileIcon = UITabBarItem(title: "Профиль",
-                                       image: UIImage(systemName: "person.crop.circle"),
-                                       selectedImage: UIImage(systemName: "person.crop.circle.fill"))
+        let profileIcon = UITabBarItem(
+            title: "Профиль",
+            image: UIImage(named: "profileIcon")?.resize(withSize: CGSize(width: 30, height: 30)),
+            selectedImage: UIImage(named: "profileSelectedIcon")?.resize(withSize: CGSize(width: 30, height: 30))
+        )
         profileVC.tabBarItem = profileIcon
         
         let contactsVC = ContactsScreenVC()
-        let contactsIcon = UITabBarItem(title: "Контакты",
-                                        image: UIImage(systemName: "map"),
-                                        selectedImage: UIImage(systemName: "map.fill"))
+        let contactsIcon = UITabBarItem(
+            title: "Контакты",
+            image: UIImage(named: "contactsIcon")?.resize(withSize: CGSize(width: 30, height: 30)),
+            selectedImage: UIImage(named: "contactsSelectedIcon")?.resize(withSize: CGSize(width: 30, height: 30))
+        )
         contactsVC.tabBarItem = contactsIcon
         
         let basketVC = BasketScreenVC()
-        let basketIcon = UITabBarItem(title: "Корзина",
-                                      image: UIImage(systemName: "cart"),
-                                      selectedImage: UIImage(systemName: "cart.fill"))
+        let basketIcon = UITabBarItem(
+            title: "Корзина",
+            image: UIImage(named: "basketIcon")?.resize(withSize: CGSize(width: 30, height: 30)),
+            selectedImage: UIImage(named: "basketSelectedIcon")?.resize(withSize: CGSize(width: 30, height: 30))
+        )
         basketVC.tabBarItem = basketIcon
         
         let controllers = [menuVC, profileVC, contactsVC, basketVC]
