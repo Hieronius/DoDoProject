@@ -17,6 +17,8 @@ final class TabBarController: UITabBarController {
         setupTabBar()
     }
     
+    // MARK: - Private Methods
+    
     private func setupTabBar() {
         delegate = self
         
