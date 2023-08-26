@@ -21,6 +21,7 @@ final class TabBarController: UITabBarController {
         delegate = self
         
         self.tabBar.backgroundColor = .white
+        self.tabBar.tintColor = .black
         
         let menuVC = MenuScreenVC()
         let menuIcon = UITabBarItem(
