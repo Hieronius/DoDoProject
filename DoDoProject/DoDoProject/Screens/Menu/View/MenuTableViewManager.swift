@@ -1,10 +1,3 @@
-//
-//  MenuTableViewManager.swift
-//  DoDoProject
-//
-//  Created by Арсентий Халимовский on 31.07.2023.
-//
-
 import UIKit
 import SnapKit
 
@@ -64,7 +57,7 @@ extension MenuTableViewManager: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        let section = MenuSection.init(rawValue: section) // 0 -> MenuSection.banner
+        let section = MenuSection.init(rawValue: section)
         
         switch section {
         case .banner:

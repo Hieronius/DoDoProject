@@ -1,10 +1,3 @@
-//
-//  Ingredient.swift
-//  DoDoProject
-//
-//  Created by Арсентий Халимовский on 03.08.2023.
-//
-
 import Foundation
 
 struct Ingredient {

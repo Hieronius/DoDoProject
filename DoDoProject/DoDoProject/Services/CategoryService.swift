@@ -1,10 +1,3 @@
-//
-//  CategoryService.swift
-//  DoDoProject
-//
-//  Created by Арсентий Халимовский on 02.08.2023.
-//
-
 import Foundation
 
 final class CategoryService {

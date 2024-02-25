@@ -1,10 +1,3 @@
-//
-//  Product.swift
-//  DoDoProject
-//
-//  Created by Арсентий Халимовский on 29.07.2023.
-//
-
 import Foundation
 
 struct Product {

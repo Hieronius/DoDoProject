@@ -1,10 +1,3 @@
-//
-//  ProductTableCell.swift
-//  DoDoProject
-//
-//  Created by Арсентий Халимовский on 31.07.2023.
-//
-
 import UIKit
 
 final class ProductTableCell: UITableViewCell {

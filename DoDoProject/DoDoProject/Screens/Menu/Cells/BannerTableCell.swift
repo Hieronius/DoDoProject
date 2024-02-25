@@ -1,10 +1,3 @@
-//
-//  BannerTableCell.swift
-//  DoDoProject
-//
-//  Created by Арсентий Халимовский on 31.07.2023.
-//
-
 import UIKit
 
 final class BannerTableCell: UITableViewCell {
@@ -30,7 +23,7 @@ final class BannerTableCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
-    //MARK: - Public
+    // MARK: - Public
     
     func update(_ banners: [Banner]) {
          bannerCollectionView.banners = banners

@@ -1,10 +1,3 @@
-//
-//  DetailScreenVC.swift
-//  DoDoProject
-//
-//  Created by Арсентий Халимовский on 29.07.2023.
-//
-
 import UIKit
 import SnapKit
 
