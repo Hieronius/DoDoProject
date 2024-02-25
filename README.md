@@ -15,10 +15,10 @@ Project has been reworked accordingly to Git Flow methodology
 - Delegation
 
 ## ❗️Info
-iOS Deployment Target - 13.0
-Tested on iphone 6s with ios 15.2
-Tested on iphone 13 mini with ios 16
-Tested on iphone 11 with ios 14.8
+- iOS Deployment Target - 13.0
+- Tested on iphone 6s with ios 15.2
+- Tested on iphone 13 mini with ios 16
+- Tested on iphone 11 with ios 14.8
 
 ## 📺Demo
 
