@@ -43,6 +43,8 @@
 		DD8F75EB2A77F0C1007F10C1 /* CustomBannerPriceLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8F75EA2A77F0C1007F10C1 /* CustomBannerPriceLabel.swift */; };
 		DD8F75ED2A77F0F7007F10C1 /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8F75EC2A77F0F7007F10C1 /* Banner.swift */; };
 		DD8F75EF2A77F111007F10C1 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8F75EE2A77F111007F10C1 /* Category.swift */; };
+		DD94A4A22A983AA2004500D6 /* UIView + ResizeImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD94A4A12A983AA2004500D6 /* UIView + ResizeImages.swift */; };
+		DD95D62F2AA022050074662D /* CustomStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD95D62E2AA022050074662D /* CustomStepper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +85,8 @@
 		DD8F75EA2A77F0C1007F10C1 /* CustomBannerPriceLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBannerPriceLabel.swift; sourceTree = "<group>"; };
 		DD8F75EC2A77F0F7007F10C1 /* Banner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
 		DD8F75EE2A77F111007F10C1 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		DD94A4A12A983AA2004500D6 /* UIView + ResizeImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + ResizeImages.swift"; sourceTree = "<group>"; };
+		DD95D62E2AA022050074662D /* CustomStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStepper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +224,7 @@
 				DD8F75E02A77ECF5007F10C1 /* Reusable + reuseID.swift */,
 				DD8F75E22A77ED4E007F10C1 /* UITableView + dequeueCell.swift */,
 				DD8F75E42A77ED8D007F10C1 /* UICollectionView + dequeueCell.swift */,
+				DD94A4A12A983AA2004500D6 /* UIView + ResizeImages.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -240,6 +245,7 @@
 			children = (
 				DD8F75CE2A77E8BE007F10C1 /* GenericViewController.swift */,
 				DD8F75EA2A77F0C1007F10C1 /* CustomBannerPriceLabel.swift */,
+				DD95D62E2AA022050074662D /* CustomStepper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -370,12 +376,14 @@
 				DD8F75E52A77ED8D007F10C1 /* UICollectionView + dequeueCell.swift in Sources */,
 				DD8EFAF72A7526DF006C3F6B /* BasketScreenVC.swift in Sources */,
 				DD8661E62A73B6DA00F92FE1 /* AppDelegate.swift in Sources */,
+				DD95D62F2AA022050074662D /* CustomStepper.swift in Sources */,
 				DD8AB5142A795F83006804D2 /* BannerService.swift in Sources */,
 				DD8F75EF2A77F111007F10C1 /* Category.swift in Sources */,
 				DD8EFAFC2A7529DE006C3F6B /* MenuView.swift in Sources */,
 				DD8F75CF2A77E8BE007F10C1 /* GenericViewController.swift in Sources */,
 				DD8F75EB2A77F0C1007F10C1 /* CustomBannerPriceLabel.swift in Sources */,
 				DD8F75E92A77EFBA007F10C1 /* CategoryCollectionViewManager.swift in Sources */,
+				DD94A4A22A983AA2004500D6 /* UIView + ResizeImages.swift in Sources */,
 				DD8BA7112A7BD5F700794B8F /* DetailView.swift in Sources */,
 				DD8BA70E2A7BD52600794B8F /* IngredientService.swift in Sources */,
 				DD8F75DF2A77EC94007F10C1 /* CategoryCollectionCell.swift in Sources */,
