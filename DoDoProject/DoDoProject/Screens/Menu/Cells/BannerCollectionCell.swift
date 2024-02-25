@@ -1,10 +1,3 @@
-//
-//  BannerCollectionCell.swift
-//  DoDoProject
-//
-//  Created by Арсентий Халимовский on 31.07.2023.
-//
-
 import UIKit
 
 final class BannerCollectionCell: UICollectionViewCell {
@@ -52,8 +45,6 @@ extension BannerCollectionCell {
 
 extension BannerCollectionCell {
     
-#warning("Replace and fix the way of shadow drawings for banner collection view")
-    
     private func customShadowPath(viewLayer layer: CALayer, shadowHeight: CGFloat) -> UIBezierPath {
         let layerX = layer.bounds.origin.x
         let layerY = layer.bounds.origin.y
@@ -92,27 +83,14 @@ extension BannerCollectionCell {
     
     
     private func setupContainer() {
-        // MARK: Should be refactored with a mentor. Shadows won't work with shadowPath
         container.backgroundColor = UIColor.white
         container.layer.cornerRadius = 15
-        // container.clipsToBounds = false
-        // container.layer.masksToBounds = false
         contentView.addSubview(container)
         
-        
-        // container.layer.shadowOffset = CGSize(width: 10, height: 10)
         container.layer.shadowOffset = .zero
         container.layer.shadowRadius = 3
         container.layer.shadowOpacity = 0.1
         container.layer.shadowColor = UIColor.black.cgColor
-        // container.layer.shadowPath = UIBezierPath(rect: container.bounds).cgPath
-        
-        
-        
-        // container.layer.shadowPath = self.customShadowPath(viewLayer: container.layer, shadowHeight: 5).cgPath
-        
-        
-        
         
         container.snp.makeConstraints {
             $0.edges.equalTo(contentView)

@@ -1,10 +1,3 @@
-//
-//  ViewController.swift
-//  DoDoProject
-//
-//  Created by Арсентий Халимовский on 28.07.2023.
-//
-
 import UIKit
 
 final class TabBarController: UITabBarController {
@@ -57,7 +50,13 @@ final class TabBarController: UITabBarController {
         )
         basketVC.tabBarItem = basketIcon
         
-        let controllers = [menuVC, profileVC, contactsVC, basketVC]
+        let detailVC = DetailScreenVC()
+        let detailIcon = UITabBarItem(title: "Добавить",
+                                      image: UIImage(systemName: "plus"),
+                                      selectedImage: UIImage(systemName: "plus.fill"))
+        detailVC.tabBarItem = detailIcon
+        
+        let controllers = [menuVC, detailVC, profileVC, contactsVC, basketVC]
         self.viewControllers = controllers
     }
 

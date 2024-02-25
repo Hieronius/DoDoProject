@@ -1,10 +1,3 @@
-//
-//  DetailCollectionViewManager.swift
-//  DoDoProject
-//
-//  Created by Арсентий Халимовский on 03.08.2023.
-//
-
 import UIKit
 import SnapKit
 

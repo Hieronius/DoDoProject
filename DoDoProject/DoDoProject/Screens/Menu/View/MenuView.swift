@@ -1,10 +1,3 @@
-//
-//  MenuView.swift
-//  DoDoProject
-//
-//  Created by Арсентий Халимовский on 29.07.2023.
-//
-
 import UIKit
 
 final class MenuView: UIView {

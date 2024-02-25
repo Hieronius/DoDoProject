@@ -1,10 +1,3 @@
-//
-//  ProductService.swift
-//  DoDoProject
-//
-//  Created by Арсентий Халимовский on 30.07.2023.
-//
-
 import Foundation
 
 final class ProductService {
